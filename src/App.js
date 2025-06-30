@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Analytics } from "@vercel/analytics/react"
 import React from "react";
 import "./App.css";
 import img1 from './images/p1.jpg';
@@ -73,7 +74,7 @@ const App = () => {
       </div>
 
 
-
+<Analytics/>
     </div>
   );
 };
